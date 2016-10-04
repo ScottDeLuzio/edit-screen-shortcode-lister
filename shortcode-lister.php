@@ -4,7 +4,7 @@
    Plugin URI: http://surpriseazwebservices.com/wordpress-plugins/shortcode-lister-wordpress-plugin/
    Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN
    Description: A plugin to display a list of all the shortcodes available for use on the post and page edit screens.
-   Version: 1.0.3
+   Version: 1.0.4
    Author: Scott DeLuzio
    Author URI: https://surpriseazwebservices.com
    License: GPL2
