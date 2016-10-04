@@ -3,8 +3,8 @@ Contributors: scott.deluzio
 Tags: shortcode, plugin, list, 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN
 Requires at least: 2.5.0
-Tested up to: 4.0
-Stable tag: 1.0.3
+Tested up to: 4.5
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,9 @@ You can remove the donate link by changing the line $show_donation = "true"; to 
 2. Shortcode Lister menu shown on the Page editor screen screenshot-2.png
 
 == Changelog ==
+= 1.0.4 =
+* Minor update
+
 = 1.0.3 =
 * Minor update
 * Updated to 4.0
@@ -65,6 +68,5 @@ You can remove the donate link by changing the line $show_donation = "true"; to 
 * Initial release.
 
 == Upgrade Notice ==
-= 1.0.3 =
+= 1.0.4 =
 * Minor update
-* Updated to 4.0
