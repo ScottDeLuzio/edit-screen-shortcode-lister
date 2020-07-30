@@ -40,7 +40,7 @@ function shortcode_lister_add_action_links( $links ) {
  */
 function shortcode_lister_admin_settings_page() {
 	global $shortcode_lister_active_tab;
-	$shortcode_lister_active_tab = isset( $_GET['tab'] ) ? $_GET['tab'] : 'welcome'; ?>
+	$shortcode_lister_active_tab = isset( $_GET['tab'] ) ? sanitize_text_field( $_GET['tab'] ) : 'welcome'; ?>
 
 	<h2 class="nav-tab-wrapper">
 	<?php
