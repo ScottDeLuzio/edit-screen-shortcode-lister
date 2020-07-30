@@ -58,9 +58,8 @@ function shortcode_lister_menu( $location ) {
 			}
 			echo '&nbsp;<select id="sl_select"><option class="noclick">Shortcodes</option>';
 			foreach ( $includes as $include ) {
-				$shortcodes_list .= '<option value="' . $include . '">' . $include . '</option>';
+				echo '<option value="' . esc_attr( $include ) . '">' . esc_html( $include ) . '</option>';
 			}
-			echo esc_textarea( $shortcodes_list );
 			echo '</select>';
 			break;
 	}
