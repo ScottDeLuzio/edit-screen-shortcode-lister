@@ -2,7 +2,6 @@
 /**
  * Enqueue Scripts for Shortcode Lister
  * 
- * @wordpress-plugin
  * @package Shortcode_Lister
  */
 
@@ -13,7 +12,6 @@ add_action( 'admin_enqueue_scripts', 'shortcode_lister_scripts' );
 
 /**
  * Shortcode Lister Scripts
- * 
  * Enqueues Plugin Scripts
  * 
  * @return void

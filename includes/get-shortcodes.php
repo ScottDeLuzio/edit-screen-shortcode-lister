@@ -8,7 +8,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	die( 'Sorry, you are not allowed to access this page directly.' );
 }
-add_filter( 'media_buttons', 'shortcode_lister_menu', 15 );
+add_action( 'media_buttons', 'shortcode_lister_menu', 15 );
 
 /**
  * Shortcode Menu Lister
@@ -16,7 +16,7 @@ add_filter( 'media_buttons', 'shortcode_lister_menu', 15 );
  * Creates and displays array of all shortcodes; for both the editor dropdown and for the Shortcode Lister plugin whitelisting/settings page.
  *
  * @param string $location Location is either the settings page or the default which is the <select> dropdown in the classic editor.
- * @return null
+ * @return void
  */
 function shortcode_lister_menu( $location ) {
 	// retrieve registered shortcode tags.
@@ -63,5 +63,4 @@ function shortcode_lister_menu( $location ) {
 			echo '</select>';
 			break;
 	}
-	return null;
 }
