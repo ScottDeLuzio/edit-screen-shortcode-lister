@@ -3,8 +3,8 @@ Contributors: scott.deluzio
 Tags: shortcode, plugin, list
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN
 Requires at least: 2.7.0
-Tested up to: 5.2.0
-Stable tag: 2.0.2
+Tested up to: 5.5.0
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,10 @@ Simply click where you want the shortcode to be inserted in your post editor, th
 2. Shortcode Lister settings allows you to exclude some shortcodes from your drop down menu. screenshot-2.png
 
 == Changelog ==
+= 2.1.0 =
+* Applied WordPress VIP coding standards. Thanks to Douglas Johnson for the Pull Request that incorporated these standards.
+* Removed unnecessary code that was used for "tabbing" the settings page. Only one setting page is needed so the additional tabs code is not needed.
+
 = 2.0.2 =
 * Bug fix language text domain.
 
@@ -80,5 +84,6 @@ Simply click where you want the shortcode to be inserted in your post editor, th
 * Initial release.
 
 == Upgrade Notice ==
-= 2.0.2 =
-* Bug fix language text domain.
+= 2.1.0 =
+* Applied WordPress VIP coding standards. Thanks to Douglas Johnson for the Pull Request that incorporated these standards.
+* Removed unnecessary code that was used for "tabbing" the settings page. Only one setting page is needed so the additional tabs code is not needed.
