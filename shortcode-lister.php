@@ -1,17 +1,17 @@
 <?php
 /**
  * Shortcode Lister Plugin
- * 
+ *
  * @package Shortcode_Lister
- * 
+ *
  * @wordpress-plugin
  * Plugin Name: Shortcode Lister
  * Description: A plugin to display a list of all the shortcodes available for use on the post and page edit screens.
- * Author: Scott DeLuzio <scott@surpriseazwebservices.com>
+ * Author: Scott DeLuzio <scott@amplifyplugins.com>
  * Author URI: https://scottdeluzio.com
- * Version: 2.0.2
+ * Version: 2.1.0
  * License: GPL2
- * Plugin URI: http://surpriseazwebservices.com/wordpress-plugins/shortcode-lister-wordpress-plugin/
+ * Plugin URI: https://github.com/AmplifyPlugins/edit-screen-shortcode-lister
  * Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN
  * Text Domain: shortcode-lister
  */
@@ -51,7 +51,7 @@ if ( ! defined( 'SHORTCODE_LISTER_PLUGIN_BASENAME' ) ) {
 	define( 'SHORTCODE_LISTER_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 }
 if ( ! defined( 'SHORTCODE_LISTER_VERSION' ) ) {
-	define( 'SHORTCODE_LISTER_VERSION', '2.0.2' );
+	define( 'SHORTCODE_LISTER_VERSION', '2.1.0' );
 }
 
 if ( is_admin() ) {

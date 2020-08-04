@@ -1,7 +1,7 @@
 <?php
 /**
  * ShortCode Lister Settings
- * 
+ *
  * @package Shortcode_Lister
  */
 
@@ -24,7 +24,7 @@ add_filter( 'plugin_action_links_' . SHORTCODE_LISTER_PLUGIN_BASENAME, 'shortcod
  * Undocumented function
  *
  * @param array $links Array links to be modified.
- * @return strings[] 
+ * @return strings[]
  */
 function shortcode_lister_add_action_links( $links ) {
 	$mylinks = array(
@@ -39,8 +39,7 @@ function shortcode_lister_add_action_links( $links ) {
  * @return void
  */
 function shortcode_lister_admin_settings_page() {
-	global $shortcode_lister_active_tab;
-	$shortcode_lister_active_tab = isset( $_GET['tab'] ) ? sanitize_text_field( $_GET['tab'] ) : 'welcome'; ?>
+	?>
 
 	<h2 class="nav-tab-wrapper">
 	<?php
@@ -59,9 +58,8 @@ add_action( 'shortcode_lister_settings_tab', 'shortcode_lister_welcome_tab', 1 )
  * @return void
  */
 function shortcode_lister_welcome_tab() {
-	global $shortcode_lister_active_tab; 
 	?>
-	<a class="nav-tab <?php echo 'welcome' || '' == $shortcode_lister_active_tab ? 'nav-tab-active' : ''; ?>" href="<?php echo esc_url( admin_url( 'options-general.php?page=shortcode-lister-settings&tab=welcome' ) ); ?>"><?php _e( 'Shortcode Lister', 'shortcode-lister' ); ?> </a>
+	<a class="nav-tab nav-tab-active" href="<?php echo esc_url( admin_url( 'options-general.php?page=shortcode-lister-settings&tab=welcome' ) ); ?>"><?php _e( 'Shortcode Lister', 'shortcode-lister' ); ?> </a>
 	<?php
 }
 
@@ -73,10 +71,6 @@ add_action( 'shortcode_lister_settings_content', 'shortcode_lister_welcome_rende
  * @return void
  */
 function shortcode_lister_welcome_render_options_page() {
-	global $shortcode_lister_active_tab;
-	if ( '' || 'welcome' != $shortcode_lister_active_tab ) {
-		return;
-	}
 	?>
 
 	<h3><?php _e( 'Shortcode Lister Settings', 'shortcode-lister' ); ?></h3>
