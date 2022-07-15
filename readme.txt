@@ -3,8 +3,8 @@ Contributors: scott.deluzio, ampmode
 Tags: shortcode, plugin, list
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN
 Requires at least: 2.7.0
-Tested up to: 5.8.1
-Stable tag: 2.1.1
+Tested up to: 6.0.1
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,9 @@ Simply click where you want the shortcode to be inserted in your post editor, th
 2. Shortcode Lister settings allows you to exclude some shortcodes from your drop down menu. screenshot-2.png
 
 == Changelog ==
+= 2.1.2 =
+* Updated tested up to versions of WP and WooCommerce.
+
 = 2.1.1 =
 * Updated tested up to version.
 * Added Contributors.
@@ -88,6 +91,5 @@ Simply click where you want the shortcode to be inserted in your post editor, th
 * Initial release.
 
 == Upgrade Notice ==
-= 2.1.1 =
-* Updated tested up to version.
-* Added Contributors.
+= 2.1.2 =
+* Updated tested up to versions of WP and WooCommerce.

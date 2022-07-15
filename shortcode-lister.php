@@ -9,7 +9,9 @@
  * Description: A plugin to display a list of all the shortcodes available for use on the post and page edit screens.
  * Author: AMP-MODE
  * Author URI: https://amplifyplugins.com
- * Version: 2.1.1
+ * Tested up to: 6.0.1
+ * Version: 2.1.2
+ * WC tested up to: 6.7.0
  * License: GPL2
  * Plugin URI: https://github.com/AmplifyPlugins/edit-screen-shortcode-lister
  * Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN
